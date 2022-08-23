@@ -1,0 +1,15 @@
+/Users/al.kolobov/Projects/Task1/bin/Debug/net6.0/Task1
+/Users/al.kolobov/Projects/Task1/bin/Debug/net6.0/Task1.deps.json
+/Users/al.kolobov/Projects/Task1/bin/Debug/net6.0/Task1.runtimeconfig.json
+/Users/al.kolobov/Projects/Task1/bin/Debug/net6.0/Task1.dll
+/Users/al.kolobov/Projects/Task1/bin/Debug/net6.0/Task1.pdb
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.csproj.AssemblyReference.cache
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.AssemblyInfoInputs.cache
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.AssemblyInfo.cs
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.csproj.CoreCompileInputs.cache
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.dll
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/refint/Task1.dll
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.pdb
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/Task1.genruntimeconfig.cache
+/Users/al.kolobov/Projects/Task1/obj/Debug/net6.0/ref/Task1.dll
