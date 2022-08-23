@@ -8,6 +8,7 @@ Operation obj= new Operation();
 obj.InputMessageData("Введите команду команду");
 
 int command = obj.InputInt(Console.ReadLine());
+int idAdd=-1;
 
 while(true){
     switch (command)
@@ -15,20 +16,27 @@ while(true){
         case 1:
             Transaction newItem=new Transaction();       
             Console.Write("Введите Id: ");
-            newItem.Id=obj.InputInt(Console.ReadLine());
-            
-            Console.Write("Введите дату: ");
-            newItem.TransactionDate=obj.InputDate(Console.ReadLine());
+            idAdd = obj.InputInt(Console.ReadLine());
+            if(!obj.Checked(idAdd))
+            {
+                newItem.Id=idAdd;
+                
+                Console.Write("Введите дату: ");
+                newItem.TransactionDate=obj.InputDate(Console.ReadLine());
 
-            Console.Write("Введите сумму: ");
-            newItem.Amount=obj.InputAmount(Console.ReadLine());
-            
-            obj.AddItem(newItem);
-            Console.WriteLine("[OK]");
+                Console.Write("Введите сумму: ");
+                newItem.Amount=obj.InputAmount(Console.ReadLine());
+                
+                obj.AddItem(newItem);
+                Console.WriteLine("[OK]");
 
-            obj.InputMessageData("Введите команду команду:");
-            command = obj.InputInt(Console.ReadLine());
-            break;
+                obj.InputMessageData("Введите команду команду:");
+                command = obj.InputInt(Console.ReadLine());
+                break;
+            }else{
+                Console.WriteLine("Транзакция с таким ID уже существует.");
+                break;
+            }
         case 2:
             Console.Write("Введите Id: ");
             int id= obj.InputInt(Console.ReadLine());

@@ -12,6 +12,13 @@ namespace Task1.Model
             Data=new List<Transaction>();
         }
         
+        public bool Checked(int id){
+            if(Data.Where(opt=>opt.Id==id).FirstOrDefault() is null)
+                return false;
+            else
+                return true;
+        }
+
         // Вывод сообщений о вводу комманд
         public void InputMessageData(string message){
             Console.WriteLine(message);
