@@ -19,7 +19,7 @@ while(true){
             idAdd = obj.InputInt(Console.ReadLine());
             if(!obj.Checked(idAdd))
             {
-                newItem.Id=idAdd;
+                newItem.Id=Math.Abs(idAdd);
                 
                 Console.Write("Введите дату: ");
                 newItem.TransactionDate=obj.InputDate(Console.ReadLine());
